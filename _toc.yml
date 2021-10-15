@@ -1,0 +1,7 @@
+format: jb-book
+root: ondes
+
+chapters:
+  - file: notebook/ondes_propagation
+  - file: notebook/ondes_superposition
+  - file: notebook/ondes_stationnaires
