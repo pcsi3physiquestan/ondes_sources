@@ -2,6 +2,18 @@ format: jb-book
 root: ondes
 
 chapters:
-  - file: notebook/ondes_propagation
-  - file: notebook/ondes_superposition
-  - file: notebook/ondes_stationnaires
+  - file: notebook/ondes_prop
+    sections:
+    - file: notebook/ondes_prop_contxt
+    - file: notebook/ondes_prop_ex
+  - file: notebook/ondes_super
+    sections:
+    - file: notebook/ondes_super_contxt
+    - file: notebook/ondes_super_meth_battements
+    - file: notebook/ondes_super_meth_young
+    - file: notebook/ondes_super_ex
+  - file: notebook/ondes_stat
+    sections:
+    - file: notebook/ondes_stat_contxt
+    - file: notebook/ondes_stat_meth
+    - file: notebook/ondes_stat_ex
