@@ -1,5 +1,7 @@
 format: jb-book
 root: ondes
+options:
+  numbered: true
 
 chapters:
   - file: notebook/ondes_prop
